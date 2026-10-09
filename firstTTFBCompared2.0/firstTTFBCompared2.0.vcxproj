@@ -23,6 +23,7 @@
     <ClCompile Include="server latency.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bellCurve.py" />
     <None Include="module1.py" />
   </ItemGroup>
   <ItemGroup>

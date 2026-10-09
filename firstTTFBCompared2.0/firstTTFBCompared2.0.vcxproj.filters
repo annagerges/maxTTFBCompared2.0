@@ -24,6 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="module1.py" />
+    <None Include="bellCurve.py" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="latency_monitor.h">
