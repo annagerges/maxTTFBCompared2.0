@@ -32,7 +32,8 @@ int main() {
 
 
 
-    for (int index = 0; index < 1; index++) {
+    for (int index = 0; index < links.size(); /*Adjust value depending on how many of the url's you want to scan*/ index++) {
+
         // Collect latency data from the Python script
         cout << "Collecting " << num_measurements << " latency measurements..." << endl;
         vector<double> latency_data = collectLatencyData(num_measurements, file, links[index]);
