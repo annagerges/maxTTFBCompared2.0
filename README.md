@@ -103,6 +103,9 @@ Example:
 Here is a visualization of some data points collected when I adapted the url for loop to only scan the first link.
 ![bellCurve](bellCurve.png)
 
+##
+## Before you run it, fix any lines that have a full file path to be the full file path on your computer.
+
 ## License and Authors
 - **License:** MIT
 - **Author:** Anna Gerges (lead developer)
