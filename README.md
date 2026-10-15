@@ -1,6 +1,6 @@
 # firstTTFBCompared
 
-A lightweight collaborative latency-analysis project that measures Time To First Byte (TTFB) with Python and analyzes tail-risk probability in C++ using Simpson's Rule.
+A lightweight collaborative latency-analysis project that measures Time To First Byte (TTFB) with Python and analyzes tail-risk probability in C++ using Simpson's Rule. I adapted "firstTTFBCompared" to include more data visualizations.
 
 ## Demo / Screenshot
 ![Latency Analysis Output](image.png)
@@ -99,14 +99,11 @@ Example:
 110.229044
 ```
 
-## Coming soon
-* Numerical Method Comparisons: Simpson's rule vs Trapezoidal Rule
-* Descriptions of tradeoffs between methods
-* Testing program on multiple servers
-* Measure data pipe overhead
-
+### Visualizing bell curve
+Here is a visualization of some data points collected when I adapted the url for loop to only scan the first link.
+![bellCurve](bellCurve.png)
 
 ## License and Authors
 - **License:** MIT
-- **Author:** Anna Gerges
+- **Author:** Anna Gerges (lead developer)
 - **Contributors:** Anna Gerges, Nico (collaborator on the original class project)
